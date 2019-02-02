@@ -1,0 +1,565 @@
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+}
+
+.navbar-nav>li>a {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.navbar {
+    /* height: 30px !important; */
+    min-height: unset !important
+}
+
+body {
+    color: black !important;
+}
+
+.header_number {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+.navbar {
+    /* margin-top: -2rem !important; */
+    position: relative !important;
+        text-transform: uppercase;
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+}
+
+.date input {
+    padding: 11px 12px 5px;
+}
+
+.pl5 {
+    padding-left: 5px !important
+}
+
+.pr5 {
+    padding-right: 5px !important
+}
+
+.px8 {
+    padding: 0 8%;
+}
+
+.px0 {
+    padding: 0 0% !important;
+}
+
+.mt1 {
+    margin-top: 1%;
+}
+
+.mt2 {
+    margin-top: 2%;
+}
+
+.mt3 {
+    margin-top: 3%;
+}
+
+.mt5 {
+    margin-top: 5%;
+}
+
+.mt6 {
+    margin-top: 6%;
+}
+
+.mt8 {
+    margin-top: 8%;
+}
+
+.mb3 {
+    margin-bottom: 3%;
+}
+
+.mt4 {
+    margin-top: 4%;
+}
+
+.mb2 {
+    margin-bottom: 2%;
+}
+
+.mb0 {
+    margin-bottom: 0%;
+}
+
+.mb4 {
+    margin-bottom: 4%;
+}
+
+.mtp2 {
+    margin-top: 25px;
+}
+
+.mbp2 {
+    margin-bottom: 20px;
+}
+
+.ml4 {
+    margin-left: 4%;
+}
+
+.ml8 {
+    margin-left: 8%;
+}
+
+.navbar {
+    position: fixed;
+    /* z-index: 99; */
+    background-color: #FDFDFD;
+    width: 100%;
+    top: 0;
+    color: black;
+}
+
+.section {
+    padding-top: 0.5%;
+}
+
+input {
+    width: 100%;
+    border: 2px solid black;
+    /* height: 40px; */
+    font-family: ITCFranklinGothicStdBook !important;
+    font-size: 18px !important;
+    padding: 7px 7px 4px 12px;
+    height: 48px !important;
+}
+
+.dropdown_style {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 0px;
+    text-align: left;
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 18px;
+    padding: 7px 7px 0px 12px;
+}
+
+.dropdown_style img {
+    width: 21px;
+    position: absolute;
+    right: 10px;
+}
+
+.rail-select {
+    position: relative;
+    width: 100%;
+}
+
+.rail-select img {
+    width: 24px;
+    margin: 10px 7px;
+}
+
+.rail-select select {
+    border-radius: 3px;
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 18px;
+    color: black;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 10px 12px;
+    height: 48px;
+}
+
+.rail-select select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus,a:focus {
+    outline: none !important;
+    box-shadow: none !important
+}
+
+.rail-select .select-side {
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    background-color: #fDFDFD;
+    height: 100%;
+    right: 0px;
+    pointer-events: none;
+    border: 2px solid black;
+    border-radius: 0px;
+    border-left: 0px;
+}
+
+.rail-select .select-side:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 1px;
+    /* or 100px */
+}
+
+.box {
+    position: relative;
+    width: 100%;
+}
+
+.wd275 {
+    width: 275px
+}
+
+.box img {
+    width: 24px;
+    margin: 5px 7px;
+}
+
+.box select {
+    border-radius: 3px;
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 24px;
+    color: black;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 7px 12px;
+    height: 48px;
+}
+
+.box select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.box .select-side {
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    background-color: #fDFDFD;
+    height: 100%;
+    right: 0px;
+    pointer-events: none;
+    border: 2px solid black;
+    border-radius: 0px;
+    border-left: 0px;
+}
+
+.box .select-side:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 1px;
+    /* or 100px */
+}
+
+.tt {
+    text-transform: uppercase;
+}
+
+.navbar-toggle span {
+    background-color: black;
+}
+
+.cbtn {
+    font-family: ITCFranklinGothicStdDemi !important;
+    font-size: 14px !important;
+    width: 165px;
+    border-radius: 20px !important;
+    border: 3px solid black !important;
+    padding: 7px 0px !important;
+    color: black !important;
+    height: 38px !important;
+}
+
+.cbtn_color {
+    background-color: #F9E038;
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 14px !important;
+    width: 165px;
+    border-radius: 20px !important;
+    padding: 9px 0px !important;
+    color: black !important;
+    height: 38px;
+}
+
+.cbtn_color_black {
+    background-color: black;
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 14px !important;
+    width: 165px !important;
+    border-radius: 20px !important;
+    padding: 8px 0px;
+    color: white !important;
+    height: 38px !important;
+}
+
+
+
+.pd0 {
+    padding: 0px !important;
+}
+
+.px4 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+
+.px8 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.display {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.display .modal-content {
+    border-radius: 0px;
+}
+
+a {
+    color: unset !important;
+}
+
+a:hover,
+a:focus {
+    color: unset;
+}
+
+/* .panel-body{
+    box-shadow: 0px 0px 8px 0px grey;
+} */
+
+select,
+.box select {
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+}
+
+.agendabold46 {
+    font-family: AgendaBold;
+    font-size: 46px;
+}
+
+.agendabold45 {
+    font-family: AgendaBold;
+    font-size: 45px;
+}
+
+.agendabold43 {
+    font-family: AgendaBold;
+    font-size: 43px;
+}
+
+.agendabold42 {
+    font-family: AgendaBold;
+    font-size: 42pt;
+}
+
+.agendabold32 {
+    font-family: AgendaBold;
+    font-size: 32px !important;
+}
+
+.agendabold38 {
+    font-family: AgendaBold;
+    font-size: 38px !important;
+}
+
+.fgsd14 {
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 14px;
+}
+
+.fgsb24 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 24px;
+}
+
+.fgsd20 {
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 20px;
+}
+
+.fgsb10 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 10px;
+}
+
+.fgsb18 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 18px;
+}
+
+.fgsb14 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 14px;
+}
+
+.ltr22 {
+    font-family: LyonTextRegular;
+    font-size: 22px;
+}
+
+.ltr20 {
+    font-family: LyonTextRegular;
+    font-size: 20px;
+}
+
+.ltr18 {
+    font-family: LyonTextRegular;
+    font-size: 18px;
+}
+
+.ltr14 {
+    font-family: LyonTextRegular;
+    font-size: 14px;
+}
+
+.fgsd18 {
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 18px;
+}
+
+.fgsb16 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 16px;
+}
+
+
+.fgsd24 {
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 24px;
+}
+
+.fgsd14b {
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.fgsd16 {
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 16px;
+}
+
+.fgsd16b {
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.fgsb12 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 12px;
+}
+
+.fgsb17 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 17px;
+}
+
+.fgsd12 {
+    font-family: ITCFranklinGothicStdDemi;
+    font-size: 12px;
+}
+
+.fgsb10 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 10px;
+}
+
+.fgsb20 {
+    font-family: ITCFranklinGothicStdBook;
+    font-size: 20px;
+}
+
+.form-control-feedback {
+    top: 7px;
+}
+
+/* 
+.bd_right {
+    border-right: 1px solid #c6bd13;
+} */
+.vl {
+    border-left: 1px solid #c6bd13;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    margin-left: -3px;
+    top: 50px;
+}
+
+.tc_text {
+    width: 17% !important;
+    margin: 0px 21px 0px 38px
+}
+
+.give_call_container {
+    padding: 25px 0px;
+}
+
+.navbar_brand_img {
+    height: 35px;
+    margin-top: -10px;
+}
+
+.sub_answer {
+    display: none;
+    padding-right: 0px !important;
+}
+
+.sub_answer2 {
+    display: none;
+    padding-right: 0px !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+.modal-body {
+    padding: 15px 60px 60px 60px !important;
+}
+
+.modal-content {
+    border-radius: 0px !important;
+}
+
+.is_shield_icon {
+    width: 100%;
+}
+
+#tandc {
+    margin-bottom: -40px;
+}
+
+.quote_form small {
+    font-weight: bold !important
+}
+
+.screen_reader {
+    display: none !important;
+}
+
+.age_width:disabled{
+    background-color: transparent;
+}
+

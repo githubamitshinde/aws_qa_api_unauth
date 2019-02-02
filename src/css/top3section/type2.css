@@ -1,0 +1,17 @@
+.top_number_thirteen {
+    border: 3pt solid black;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    margin: 30px auto;
+    color: black
+}
+
+.top_number_line {
+    border-top: 5pt solid black;
+    position: absolute;
+    width: 150px;
+    top: 70px;
+    left: 201px;
+}

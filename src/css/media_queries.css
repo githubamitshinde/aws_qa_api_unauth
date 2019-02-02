@@ -1,0 +1,520 @@
+
+
+@media (min-width: 2380px) {
+    .section_one .container {
+        width: 1500px;
+    }
+}
+@media (min-width: 2855px) {
+    .section_one  .container {
+        width: 1700px;
+    }
+}
+
+@media (min-width:3810px) {
+    .section_one .container {
+        width: 2400px;
+    }
+}
+
+
+@media only screen and (max-width: 1920px) {
+    .btn {
+        padding: 9px 12px !important;
+    }
+    .quote_now_heading {
+        font-size: 37px !important
+    }
+    .box select {
+        padding: 7px 12px !important;
+    }
+    .cbtn {
+        padding: 8px 0px !important;
+    }
+    .cbtn_color {
+        padding: 8.5px 0px !important;
+    }
+    .cbtn_color_black {
+        padding: 10x 0px !important;
+    }
+    .tandc_block_2 div {
+        margin-top: 0px;
+    }
+    .bottom_text {
+        position: absolute;
+        width: 140px !important;
+        left: -25px !important;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .box select {
+        padding: 8px 12px;
+    }
+    .tandc_block_2 div {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .is_shield_icon {
+        width: 315px !important;
+    }
+    .beni-date-of-birth {
+        padding: 7px 4px 4px 7px !important;
+    }
+    #date-of-birth {
+        padding: 7px 2px 4px 7px !important;
+    }
+    .age_width {
+        width: 75px !important
+    }
+    .box_height_thirteen {
+        height: 260px !important;
+    }
+    .bgimagetext {
+        margin-left: -5%
+    }
+    .top_number_line {
+        display: none;
+    }
+    .ul_final_section_pricing .rail-select {
+        width: 280px !important;
+    }
+    .tbody2 tr td .edit_text_img {
+        width: 21px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .bgimg {
+        display: none !important;
+    }
+    .bgimagetext {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .important_information {
+        left: 0% !important;
+        bottom: -31px !important;
+    }
+    .modal-body {
+        padding: 15px 0px 10px 0px !important;
+    }
+    .vl {
+        display: none;
+    }
+    .box_height_thirteen {
+        height: 170px !important;
+    }
+    .bgimagetext {
+        display: none !important;
+    }
+    .btn {
+        padding: 10px 12px !important
+    }
+    .box select {
+        padding: 7px 16px !important;
+    }
+    .uw_flex_income_weight {
+        display: flex !important;
+        width: 700px !important
+    }
+    .is1_col_vl {
+        border-right: none !important;
+        border-bottom: 1px solid lightgray;
+        margin-top: 2%;
+    }
+    .is1_col_vl {
+        height: unset !important;
+    }
+    .top_number_line {
+        display: none !important
+    }
+    .type3_cont {
+        position: absolute;
+        top: 28%;
+        text-align: center;
+        width: 100%;
+    }
+    .bd_right {
+        border-right: none !important;
+        border-bottom: 1px solid #c6bd13 !important;
+        margin-top: 3%;
+        height: unset !important;
+    }
+    .text_pos_in_sh {
+        text-align: center !important
+    }
+    .text_pos_in_sh p {
+        margin-top: 1% !important
+    }
+    .tc_text {
+        width: 28% !important;
+        margin: 0px 21px 0px 38px;
+    }
+    .section1_d_panel {
+        width: 320px !important
+    }
+    .bgimg {
+        display: none !important;
+    }
+    .important_information {
+        left: 8%
+    }
+    .first_col_tandc {
+        margin-left: 6.667% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .benificary_section_mb_res {
+        margin-bottom: 20px !important;
+    }
+    .benificary_section_mb_res input,
+    .benificary_section_mb_res .rail-select,
+    #info_form2 .mt2 {
+        margin-top: 5px !important;
+    }
+    .personal_info_tbody {
+        height: 375px;
+    }
+    .vl {
+        display: none;
+    }
+    .box_height_thirteen {
+        height: 170px !important;
+    }
+    .bgimagetext {
+        display: none !important;
+    }
+    .uw_flex_income_weight {
+        display: flex !important;
+        width: 550px !important
+    }
+    .quote_now_heading {
+        font-size: 32px !important;
+    }
+    .col-md-12 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .bd_right {
+        border-right: none;
+        border-bottom: 1px solid #c6bd13;
+        margin-top: 12%;
+    }
+    .tandc_block_1 {
+        display: grid;
+    }
+    .tandc_block_2 {
+        text-align: left;
+    }
+    .tandc_block_2 .col-md-2 {
+        padding: 0px;
+    }
+    .tc_text {
+        width: 100% !important;
+        margin: 0px 21px 0px 38px
+    }
+    .tandc_block_2 div {
+        margin-top: 20px;
+    }
+    .text_pos_in_sh {
+        text-align: center;
+    }
+    .center_line hr {
+        display: none !important;
+    }
+    .user_tab>li {
+        width: 25% !important;
+    }
+    .bottom_text {
+        display: none;
+    }
+    li.active .bottom_text {
+        display: block;
+        position: relative !important;
+        margin-top: 30px;
+    }
+    .user_tab>li.active .bottom_line {
+        position: absolute;
+        width: 78px;
+        left: 30px;
+    }
+    .bottom_text {
+        left: 0px !important;
+    }
+    .page4_button {
+        width: 127px;
+    }
+    .responsive_button {
+        width: 110px;
+    }
+    .type3_text {
+        padding: 0 8% !important;
+    }
+    .type3_cont {
+        top: 20% !important;
+    }
+    .header_number {
+        float: left !important;
+    }
+    .navbar_brand_img {
+        margin: -5px 50%;
+    }
+    .mt1 {
+        margin-top: 13px
+    }
+    .mt2 {
+        margin-top: 21px;
+    }
+    .mb2 {
+        margin-bottom: 5px
+    }
+    .mb3 {
+        margin-bottom: 25px;
+    }
+    .mt3 {
+        margin-top: 25px;
+    }
+    .blue_circle_svg {
+        display: none;
+    }
+    .circularprogressbar_text {
+        left: 43% !important;
+        top: 75px !important;
+    }
+    .top_number_thirteen {
+        padding: 6px !important;
+    }
+    .top_number_line {
+        display: none !important;
+    }
+    .agendabold42 {
+        font-family: AgendaBold;
+        font-size: 36px;
+    }
+    .agendabold32 {
+        font-family: AgendaBold;
+        font-size: 28px;
+    }
+    .is_shield_icon {
+        content: url("../images/Icons/doller_sign_without.png");
+        width: 200px
+    }
+    .user_tab {
+        padding-left: unset !important
+    }
+    .mobile_width {
+        width: 120px !important;
+    }
+    .table-fixed tbody td {
+        padding: 0px !important
+    }
+    .table-fixed tbody {
+        height: 350px;
+    }
+    .board {
+        width: 90%;
+        height: auto !important;
+    }
+    span.round-tabs {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .tab-content .head {
+        font-size: 20px;
+    }
+    .nav-tabs>li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+    .btn-outline-rounded {
+        padding: 12px 20px;
+    }
+    .board {
+        width: 90%;
+        height: auto !important;
+    }
+    span.round-tabs {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .tab-content .head {}
+    .nav-tabs>li .a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+    .btn-outline-rounded {
+        padding: 12px 20px;
+    }
+    .bgimg {
+        display: none !important;
+    }
+    .bgimagetext {
+        display: none;
+    }
+    .is1_col_vl {
+        border-right: none !important;
+        border-bottom: 1px solid lightgray;
+        margin-top: 12%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .user_tab>li.active .bottom_line {
+        position: absolute;
+        width: 72px;
+        left: 10px;
+    }
+    .bottom_text {
+        left: unset !important;
+        width: 95px !important;
+    }
+    .personal_info_tbody {
+        height: 375px;
+    }
+    .vl {
+        display: none;
+    }
+    .box_height_thirteen {
+        height: 170px !important;
+    }
+    .bgimagetext {
+        display: none !important;
+    }
+    .section1_d_panel {
+        width: 275px !important;
+    }
+    .uw_flex_income_weight {
+        display: flex !important;
+        width: 315px !important
+    }
+    .box select {
+        padding: 7px 35px !important;
+    }
+    .quote_now_heading {
+        font-size: 32px !important;
+    }
+    .type3_cont {
+        top: 24% !important;
+    }
+    .bgimg {
+        display: none !important;
+    }
+    .circularprogressbar_text {
+        left: 42%;
+    }
+    .tc_text {
+        margin-left: 0px !important
+    }
+    .first_col_tandc {
+        margin-left: 0px !important
+    }
+    .textbox_margin_top {
+        margin: 0px !important;
+        padding: unset !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .uw_flex_income_weight .box {
+        width: 110px !important
+    }
+    .personal_info_tbody {
+        height: 355px;
+    }
+    .vl {
+        display: none;
+    }
+    .box_height_thirteen {
+        height: 200px !important;
+    }
+    .bgimagetext {
+        display: none !important;
+    }
+    .uw_flex_income_weight {
+        display: flex !important;
+        width: 280px !important
+    }
+    .box select {
+        padding: 7px 16px !important;
+    }
+    .rccs__card,
+    .rccs {
+        width: 250px !important
+    }
+    .ul_final_section_pricing .rail-select {
+        width: 225px !important;
+    }
+    .ul_final_section_pricing .box img {
+        width: 24px;
+        margin: 10px 7px;
+    }
+    .textbox_margin_top {
+        margin: 0px !important;
+        padding: unset !important;
+    }
+    .page4_button {
+        width: 108px;
+    }
+    .tc_text {
+        margin-left: 0px !important
+    }
+    .first_col_tandc {
+        margin-left: 0px !important
+    }
+    .section1_d_panel {
+        width: 230px !important
+    }
+    .navbar_brand_img {
+        margin: -5px 20%;
+    }
+    .quote_now_heading {
+        font-size: 27px !important;
+    }
+    .type3_cont {
+        top: 10% !important;
+    }
+    #date-of-birth {
+        padding: 7px 0px 4px 2px !important
+    }
+    .bgimg {
+        display: none !important;
+    }
+    .bottom_text {
+        width: 74px !important;
+    }
+    .rccs__card {
+        margin: 0 !important
+    }
+    .user_tab>li.active .bottom_line {
+        position: absolute;
+        width: 70px;
+        left: 0;
+    }
+    .is1_col_vl {
+        height: unset !important;
+    }
+    #p_six_ssn {
+        width: 225px;
+    }
+}

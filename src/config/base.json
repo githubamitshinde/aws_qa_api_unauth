@@ -1,0 +1,111 @@
+{
+    "": {
+        "urls_for": "local_qa",
+        "ui_url": "http://ssqa.afficiency.com",
+        "base_api_url": "http://ssqa.afficiency.com:8092",
+        "base_identiy_api_url": "https://ssqa.afficiency.com/apiidentity",
+        "base_afficient_api_url": "https://ssqa.afficiency.com/apiafficient",
+        "decision_api_ws": "https://afficiencyqa.afficiency.com"
+    },
+    "current": {
+        "urls_for": "qa",
+        "ui_url": "https://ssqa.afficiency.com",
+        "base_api_url": "/apiafficiency",
+        "base_identiy_api_url": "/apiidentity",
+        "base_afficient_api_url": "/apiafficient",
+        "decision_api_ws": "https://afficiencyqa.afficiency.com"
+    },
+    "": {
+        "urls_for": "server_dev",
+        "ui_url": "https://ssdev.afficiency.com",
+        "base_api_url": "/apiafficiency",
+        "base_identiy_api_url": "/apiidentity",
+        "base_afficient_api_url": "/apiafficient",
+        "decision_api_ws": "https://afficiencydev.afficiency.com"
+    },
+    "": {
+        "urls_for": "local_dev",
+        "ui_url": "http://ssdev.afficiency.com",
+        "base_api_url": "http://ssdev.afficiency.com:8092",
+        "": "https://afficiencydev.afficiency.com:8091",
+        "base_identiy_api_url": "https://ssqa.afficiency.com/apiidentity",
+        "base_afficient_api_url": "http://ssdev-afficient.afficiency.com:8090",
+        "decision_api_ws": "https://afficiencydev.afficiency.com"
+    },
+    "": {
+        "urls_for": "prod",
+        "ui_url": "https://salaryshield.tiaa.org",
+        "domain_name": "salaryshield.tiaa.org",
+        "base_api_url": "/apiss",
+        "base_identiy_api_url": "/apiidentity",
+        "base_afficient_api_url": "/api",
+        "decision_api_ws": "https://socket.afficiency.com",
+        "crypto_apt": "/cryptoapi"
+    },
+    "nav_create":"/screenNav/create",
+    "base_cdn_src": "https://assetsssqa.afficiency.com/aff-dev/src",
+    "zip_map_api": "/cryptoapi/api/v1/zipMapAPI",
+    "dropdown_base_url": "/dropdown/list",
+    "drop_out": "/appdata/save",
+    "save_app_health": "/apphealthanswers/create",
+    "application_create": "application/create",
+    "comeback_data": "/user/comeback",
+    "comeback_data_old": "/appdata/retrieve",
+    "journey_api": "/pepathselection/getPEPath",
+    "pe_journey_api": "/pepathselection/getPEJourney",
+    "pdf_hippa_dxc_api": "/appdata/saveHiipaPDFData",
+    "pdf_app_dxc_api": "/appdata/saveAppPDFData",
+    "aff0_fetch": "/api/fetch",
+    "identity_live_visitor": "/api/v1/identityLiveVisitor",
+    "visit_create": "/visit/create",
+    "quote_create": "/quote/create",
+    "get_google_id": "/distributor/getGA",
+    "fetch_zip": "/zm/getZipcode",
+    "agent": {
+        "agent_eligible": "/agentelegibility/check"
+    },
+    "state_eligible": "/state/checkStateEligibility",
+    "page_two": {
+        "quotes_view_create": "/quoteview/create",
+        "quotes_calculate": "/quote/calculate"
+    },
+    "congrtulation": {
+        "get_policy": "/application/getPolicy"
+    },
+    "failure": {
+        "rpm_call": "/rpmcall/save",
+        "dxc_call": "/appdata/saveDeclinedAppdata",
+        "error_code": "/application/setErrorCode"
+    },
+    "page_four": {
+        "app_create": "/application/create",
+        "IdentityAPI": "/api/v1/identityAPI",
+        "update_aff_id": "/application/updateAfficiencyId",
+        "update_four": "/visit/updatePageFour"
+    },
+    "get_uw_question": "/uwquestionAnswer/getQuestionsAnswers",
+    "page_six": {
+        "update_six": "/application/update_six",
+        "hippa_flag": "/application/setHIPPAFlag"
+    },
+    "page_seven": {
+        "benificaries_create": "/applicantbeneficiaries/create"
+    },
+    "Identity_beneficiaries_save": "/api/v1/identityBeneficiaryAPI",
+    "get_rule_engine_res": "/api/getidinfo",
+    "page_ten": {
+        "update_beneficiaries": "/applicantbeneficiaries/update",
+        "update_personal_info": "/application/updatePersonalData",
+        "aif_check": "/application/get_aif_coverage",
+        "update_ten": "/application/update_ten"
+    },
+    "page_eleven": {
+        "retrive_data_app_data": "/appdata/retriveAppData",
+        "view_pdf": "/app/pdf",
+        "save_pdf": "/appdata/saveFinalAppdata",
+        "update_eleven": "/application/update_eleven"
+    },
+    "pricing_api": "/quote/calculate",
+    "set_consent_flag": "/application/setConsentFlag/",
+    "retrive_app_data": "/appdata/retriveData"
+}

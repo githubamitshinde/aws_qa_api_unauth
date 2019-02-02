@@ -1,0 +1,187 @@
+.section1_1{
+  color: black
+}
+.you_quote_span{
+    font-size: 30px;
+    
+    font-weight: 700;
+}
+.page2_section2_container{
+    margin-top: 2%;
+}
+.you_family_span{
+    font-size: 16px;
+}
+.panels_col{
+    margin-top: 1%
+}
+.round {
+    position: relative;
+    
+  }
+  
+  .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+  }
+  
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+  }
+  
+  .round input[type="checkbox"] {
+    visibility: hidden;
+    height: 25px !important;
+  }
+  
+  .round input[type="checkbox"]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+  }
+  
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+  .btn_select{
+    border-radius: 20px;
+    background: #FADC50;
+    width: 100px;
+    font-weight: 600;
+    
+    padding: 7px 0px 3px 0;
+  }
+  .dont_see{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top:2%;
+  }
+  /* button option */
+  * {
+    transition: all 0.2s cubic-bezier(0, 1.05, 0.72, 1.07);
+  }
+  body .container .buttonopt {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 4px #e5e5e5 inset;
+    margin: 10px auto;
+  }
+  body .container .buttonopt:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 4px #d8d8d8 inset;
+  }
+  .black {
+    box-shadow: 0px 0px 0px 24px #000 inset !important;
+  }
+  .check {
+    height: 100%;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    width: 100%;
+    transition-delay: 0.2s;
+    background: url("http://frolovoleg.ru/images/checkmark.svg") center no-repeat;
+  }
+  
+  
+  /* ends option */
+  .panel_rate_1{
+    font-size: 24px;
+    margin-top: 3%;
+    font-weight: bolder;
+    }
+    .panel_content_1{
+        font-size: 11px;
+        margin-top: 2%;
+    }
+    .panel_rate_2{
+        margin-top: 9%;
+        font-size: 23px;
+    }
+    .panel_content_2{
+        font-size: 11px;
+        margin-top: 2%;
+        font-weight: 900;
+    }
+    .panel_rate{
+        border-radius: 15px;
+        border: 3px solid lightgrey;
+    }
+    .adjust{
+      font-weight: 500;
+    }
+    .monthly_income{
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-top: 2%;
+      font-size: 10px;
+      padding-right: 6%;
+  
+    }
+    /* #dropdownMenu1{
+      width:190px;
+      border-radius: 0px;
+      border:2px solid black;
+      text-align: left;
+      
+    } */
+    .adjust_quote_button{
+      border-radius: 20px;
+    background: #FADC50;
+    width: 150px;
+    padding: 7px 3px 3px;
+    text-transform: uppercase;
+    }
+    .last_col_section1{
+      margin-bottom: 4%;
+    }
+    .section1_d_panel{
+      background-color: #FFFFFF;
+      border-radius: 15px;
+      border:3px solid black;
+      width :275px
+    }
+    .apply_now_button{
+      border-radius: 20px;
+      margin-top: 12%;
+      background-color: #FADD4F;
+      color: black;
+      width: 130px;
+      padding: 5px 5px 0px;
+    }
+    .ul_final_section_pricing .rail-select{
+      width: 300px;
+    }
+    #dropdownMenu2{
+      width:100%;
+      border-radius: 0px;
+      border:2px solid black;
+      text-align: left
+    }
+    .ul_margin{
+      margin: 25% auto;
+    }
+    .ul_margin_2d{
+      margin: 15% auto;
+    }
+  
+    .react-date-picker__calendar--above-label{
+      bottom: unset !important;
+      top: 0 !important;
+    }

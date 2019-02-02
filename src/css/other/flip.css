@@ -1,0 +1,116 @@
+
+ #f1_container {
+  position: relative;
+  margin: 5% auto;
+  width: 350px;
+  height: 175px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+/* #f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+} */
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color:black;
+  text-align: left;
+  background-color: #aaa;
+  
+  
+}
+  .flip_to_back{
+    transform:rotateY(0deg);
+    -webkit-transform:rotateY(0deg);
+  }
+.front,.face.back{
+  border: 1px solid #aaa;
+  /* background-color:#449DB7; */
+  background: linear-gradient(to top left,#e8e5e5,#EFEFEF);
+  box-shadow: 0px 0px 15px 2px #e8e5e5;
+  padding: 6px;
+}
+.flip_front_btn{
+  position: absolute;
+  right: -6px;
+  top: 7px;
+  width: 40px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.flipback_btn span{
+  position: absolute;
+  left: 0px;
+  bottom: 18px;
+  width: 40px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transform: scaleX(-1);
+  
+}
+#f1_card input{
+  height: 38px;
+  width: 23%;
+  border:0px;
+  background-color: #FDFDFD;
+  border-radius: 5px;
+}
+.magnetstrip{
+  height: 40px;
+  background:linear-gradient(to left,black,darkgrey);
+  padding: 0px;
+  margin: 3% -6px 0px;
+  width: 104%;
+}
+.back{
+  box-shadow: 0px 0px 15px 2px lightslategray;
+}
+  /* .front span{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+  } */
+.strip1{
+  border-top: 0px solid white;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  box-shadow: 0px 23px 4px 1px silver;
+}
+.strip2{
+  border-top: 0px solid white;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  box-shadow: 0px 38px 4px 1px silver;
+}
+.strip3{
+  border-top: 0px solid white;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  box-shadow: 0px 53px 4px 1px silver;
+}
+.inputs{
+  margin: 2px
+}

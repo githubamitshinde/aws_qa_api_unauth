@@ -1,0 +1,15 @@
+.custom_datepicker{
+
+}
+.react-datepicker-component .react-datepicker-input{
+    position: unset !important;
+    min-width: unset !important;
+    height: unset !important ;
+    background: #fff !important;
+    border: 0px solid #ced0da !important;
+    border-radius: 0px !important;
+}
+.react-datepicker-component .react-datepicker-input input{
+    border:2px solid black !important;
+    padding: 7px 7px 4px 12px !important;
+}

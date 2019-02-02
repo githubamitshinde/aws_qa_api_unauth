@@ -1,0 +1,29 @@
+.agent_container input[disabled]{
+    background: #FDFDFD !important;
+}
+.y_n_button{
+    display: inline-flex;
+  
+}
+.y_n_button .yes{
+
+    margin: 0px 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1px 6px;
+    background: #FDFDFD;
+    color: grey;
+    font-weight: bold;
+}
+.y_n_button .no{
+
+    margin: 0px 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1px 6px;
+    background: red;
+    font-weight: bold;
+}
+.agent_tcpa_disabled .ap1r1::before{
+    border-color: #02CCA4 !important;
+}

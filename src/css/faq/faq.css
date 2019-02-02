@@ -1,0 +1,23 @@
+.more-less{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 6px;
+    margin-top: -6px;
+}
+.faq_panel_heading{
+    background-color: #FFFFFF !important;
+    color: black !important;
+    padding: 18px 20px 12px;
+}
+.faq_panel_title{
+     padding: 10px 0px;
+}
+.inner_panel_text{
+    padding: 10px 15px;
+}
+.faq_panel_heading img{
+    margin-top: -4px;
+}
+.panel-default > .panel-heading{
+    background-color: #fff !important;
+}

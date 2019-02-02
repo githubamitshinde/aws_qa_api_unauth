@@ -1,0 +1,9 @@
+.circularprogressbar{
+    height: 150px;
+    content: url('../../images/SVG/blue_circle.svg')
+}
+.circularprogressbar_text{
+  position: absolute;
+  left : 47%;
+  top : 69px
+}

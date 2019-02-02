@@ -1,0 +1,47 @@
+@font-face {
+    font-family: AgendaBold;
+    src: url(Agenda-Bold.woff);
+    
+}
+
+@font-face {
+    font-family: ITCFranklinGothicStdBook;
+    src: url(ITCFranklinGothicStd-Book.ttf);
+    /* src: url(ITCFranklinGothicStd-Book.eot); */
+}
+
+@font-face {
+    font-family: ITCFranklinGothicStdBookIt;
+    src: url(ITCFranklinGothicStd-BookIt.ttf);
+    /* src: url(ITCFranklinGothicStd-BookIt.eot); */
+}
+
+@font-face {
+    font-family: ITCFranklinGothicStdDemi;
+    src: url(ITCFranklinGothicStd-Demi.ttf);
+    /* src: url(ITCFranklinGothicStd-Demi.eot); */
+}
+
+@font-face {
+    font-family: ITCFranklinGothicStdMed;
+    src: url(ITCFranklinGothicStd-Med.ttf);
+    /* src: url(ITCFranklinGothicStd-Med.eot); */
+}
+
+@font-face {
+    font-family: LyonTextRegularItalic;
+    src: url(Lyon-Text-Regular-Italic.ttf);
+    /* src: url(Lyon-Text-Regular-Italic.eot); */
+}
+
+@font-face {
+    font-family: LyonTextRegular;
+    src: url(Lyon-Text-Regular.ttf);
+    /* src: url(Lyon-Text-Regular.eot); */
+}
+
+@font-face {
+    font-family: LyonTextSemibold;
+    src: url(Lyon-Text-Semibold.ttf);
+    /* src: url(Lyon-Text-Semibold.eot); */
+}

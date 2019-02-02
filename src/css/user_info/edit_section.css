@@ -1,0 +1,163 @@
+.review_text {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.edit_btn {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 80px;
+  background-color: white;
+  padding: 9px 4px 3px;
+}
+
+.table_heading {
+  font-size: 23px;
+  color: black;
+  width: 50%;
+  padding: 10.5px 35px !important;
+}
+
+.table-fixed {
+  width: 100%;
+  background-color: unset;
+}
+
+.table-fixed tbody {
+   overflow-y: auto;
+   overflow-x: hidden;
+  width: 100%;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td {
+  float: left;
+  padding: 12px 35px;
+}
+
+.table-fixed thead tr th {
+  float: left;
+  background-color: #CECECE;
+  border-color: #CECECE;
+  padding: 1.5% 3% 1%;
+  width: 100%;
+}
+
+.table-fixed .tbody2 {
+  height: auto;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.edit_continue {
+  background: #FADD4F;
+  border-radius: 20px;
+  width: 150px;
+  padding: 8px 10px 2px;
+}
+
+.table-fixed input {
+  border: 0px;
+}
+
+.table-fixed textarea {
+  border: 0px;
+  font-family: ITCFranklinGothicStdBook !important;
+  font-size: 18px !important;
+  padding: 7px 7px 4px 12px;
+}
+
+.table-fixed textarea:focus {
+  outline-offset: unset !important;
+  outline: unset !important;
+}
+
+.table-fixed .tbody2 tr td {
+  font-family: ITCFranklinGothicStdBook !important;
+  font-size: 18px !important;
+  padding: 15px 10px !important;
+}
+
+.table-fixed .tbody2 {
+  padding: 0px 20px;
+}
+
+.table-fixed tr td .edit_text_img {
+  width: 29px;
+  height: 35px;
+  padding: 0px;
+  margin: 5px 0px 5px 50%;
+}
+
+.tbody2 tr td .edit_text_img {
+  width: 29px;
+  height: 35px;
+  padding: 0px;
+  margin: 5px 0px 8px 2%;
+}
+/* .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  border:0px !important
+} */
+.table-fixed tbody tr td{
+  /* border-top: 1px solid #ddd !important */
+  border-top: none !important
+}
+.table-fixed tbody tr td input , textarea{
+  /* border-radius: 10px */
+}
+/* .tbody2 .relation{
+  background-color: transparent !important;
+} */
+.table-fixed input[disabled],.tbody2 input[disabled]{
+  cursor: default;
+  background: #fff !important;
+}
+/* select[disabled] {
+  cursor: default;
+  background:#fff !important;
+} */
+textarea[disabled]{
+  cursor: default;
+  background:transparent !important;
+}
+.table-fixed input,.tbody2 input {
+  background: rgba(208,208,208,0.2 ) !important
+}
+
+
+.table-fixed .rail-select select ,.table-fixed .rail-select .select-side{
+  border: 0px !important
+}
+.tbody2 tr{
+  border-bottom: 1px solid #ddd !important
+}
+.bottom_add_beni_plus_button{
+  width: 22px;
+  margin: 5%
+}
+.tbody2 tr td input{
+  background: #F8F8FF
+}
+.text_disabled_color select{
+  background: transparent !important;
+  border-radius: 10px !important
+}
+
+.text_disabled_color[disabled]{
+  background: #fff !important;
+}
+.text_disabled_color{
+  background: rgba(208,208,208,0.2 ) !important;
+}
+.text_disabled_color .select-side{
+  background: rgba(208,208,208,0.2 ) !important;
+}
+.text_disabled_color[disabled] .select-side{
+  background: #fff !important;
+}
+.personal_info_tbody{
+  height: 450px;
+}

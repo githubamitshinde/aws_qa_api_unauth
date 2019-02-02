@@ -1,0 +1,20 @@
+{
+    "table_name": {
+        "page1": "Page1_home",
+        "page2":"Page2_quote",
+        "page4":"Page4_address",
+        "page6":"Page6_ssn",
+        "page7":"Page7_bene",
+        "page10":"Page10_price"
+    },
+    "column_name":{
+        "Gender":"Gender",
+        "Height":"Height",
+        "Income_need":"Income_need",
+        "lump_sum":"lump_sum",
+        "State":"State",
+        "DL_state":"DL_state",
+        "relationship":"relationship"
+        
+    }
+}

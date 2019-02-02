@@ -1,0 +1,48 @@
+{
+    "home": {
+        "date-of-birth": "Please enter your date of birth",
+        "zipcode": "Please enter your zip code",
+        "weight": "Please enter your weight"
+    },
+    "basic_info": {
+        "page3_firstname": "Please enter your first name",
+        "page3_lastname": "Please enter your last name",
+        "page3_phonenumber": "Please enter your phone number",
+        "page3_email": "Please enter your email address"
+    },
+    "address": {
+        "date-of-birth": "Please enter your date of birth",
+        "page4_homeaddress1": "Please enter your home address",
+        "page4_city": "Please enter your city",
+        "page4_zipcode": "Please enter your zip code",
+        "answer": "Please answer this question"
+    },
+    "uw_questions": {
+        "answer": "Please answer this question",
+        "check_box": "This checkbox must be clicked to continue"
+    },
+    "ssn": {
+        "p_six_ssn": "Please enter the last 4 digits of your SSN",
+        "answer": "Please answer this question",
+        "driving":"Please enter driver's license number",
+        "check_box": "This checkbox must be clicked to continue"
+    },
+    "beneficiary": {
+        "first-name": "Please enter first name",
+        "last-name": "Please enter last name",
+        "beni-date-of-birth": "Please enter date of birth",
+        "percentage_beni": "Please enter percentage",
+        "relation":"Please enter relationship"
+    },
+    "page_8": {
+        "answer": "Please answer this question"
+    },
+    "page_11": {
+        "payment_method": "Please select your payment method",
+        "payment_freq": "Please select your payment frequency",
+        "answer": "Please answer this question",
+        "zip_code": "Please enter your billing zip code",
+        "check_box": "This checkbox must be clicked to continue",
+        "bank_draft":"Our bank draft system is currently offline. Please choose another payment method."
+    }
+}

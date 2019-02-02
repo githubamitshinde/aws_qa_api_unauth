@@ -1,0 +1,93 @@
+.get_quote_button{
+    font-weight: 600;
+    border-radius: 20px;
+    width: 180px;
+    background: #F7DF38;
+    padding: 5px 0px 5px;
+}
+.bgimg{
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 60%;
+    margin-left: -15px;
+    background-color: black;
+}
+.imgofbg{
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.quote_now_heading{
+    font-size: 37px 
+}
+
+.bgimagetext{
+    margin-top: 10%;
+    font-family: AgendaBold;
+    font-size: 50px
+}
+.date{
+    width: 100%;
+    border:2px solid black;
+    /* height: 40px; */
+    font-family:ITCFranklinGothicStdBook;
+    font-size: 18px;
+    /* padding: 7px 7px 4px 12px; */
+    height: 48px;
+}
+.date input{
+    height:100%;
+    background-color: #FDFDFD !important;
+    font-family:ITCFranklinGothicStdBook;
+    font-size: 18px;
+    padding-right: 0px !important;
+}
+.date span{
+    background-color: #FDFDFD;
+}
+.date .input-group-addon{
+    padding: 4px 6px;
+}
+.weight{
+    width: 100%;
+    border:2px solid black;
+    /* height: 40px; */
+    font-family:ITCFranklinGothicStdBook;
+    font-size: 18px;
+    /* padding: 7px 7px 4px 12px; */
+    height: 44px !important;
+}
+.weight input{
+    height:100%;
+    background-color: #FDFDFD !important;
+    font-family:ITCFranklinGothicStdBook;
+    font-size: 18px;
+    padding: 3px 9px 0px;
+    color: black;
+    height: 44px !important;
+}
+.weight span{
+    background-color: #FDFDFD;
+}
+.weight .input-group-addon{
+    padding-top:8px; 
+}
+#weight{
+    border-radius: 0px !important;
+}
+.important_information{
+    position: absolute;
+    left: 13%;
+    background-color: #F3F1F1;
+    bottom: 0px;
+    padding: 5px 15px 0px;
+    z-index: 200;
+    
+}
+
+[id='142'] > sup{
+    font-size: 50%;
+    top: -.8em;
+}
